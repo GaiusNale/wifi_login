@@ -1,12 +1,13 @@
 import time, sys
-import keysus
+from keysus import user
+from keysus import passw
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, WebDriverException
 
-user_name = keysus.user
-pass_word = keysus.passw
+user_name = user
+pass_word = passw
 
 
 class Browser:
@@ -89,7 +90,7 @@ class Browser:
 
 if __name__ == "__main__":
     browser = Browser(
-        "C:/Users/HP/.cache/selenium/chromedriver/win64/124.0.6367.201/chromedriver.exe"
+        "C:/Users/HP/.cache/selenium/chromedriver-win64/chromedriver-win64/chromedriver.exe"
     )
 
     browser.open_page(
