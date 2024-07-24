@@ -1,8 +1,7 @@
+# Automatic Wifi Login
 
-# WiFi Auto Login Script
-
-This is a Python script that automates the login process for a WiFi network using Selenium. The script opens a browser, navigates to the login page, fills in the username and password fields, and logs in.
-
+This is a Python script that automates the login process for ABU's WiFi network using Selenium. The script opens a browser, navigates to the login page, fills in the username and password fields, and logs in.
+The concept is pretty straight forward and with a bit of work can be used for any form of wifi login.
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
